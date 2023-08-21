@@ -3,7 +3,7 @@ const Header:FC=()=>{
     return(<>
 <header className=" w-screen">
     <nav className="flex sm:justify-center space-x-4 max-w-full bg-lime-200 w-screen">
-            <img src="../../public/img/logo-black.svg" className="w-30 h-10 " alt="logo image"/>
+            <img src="../../public/img/logo-black.svg" className="w-full h-10 " alt="logo image"/>
   {[
     ['Home', '/dashboard'],
     ['Products', '/team'],

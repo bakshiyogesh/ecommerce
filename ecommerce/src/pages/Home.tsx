@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import ProductView from "../components/ProductView";
 
 const HomePage:FC=()=>{
-
     return(<>
        <Header/>
        <ProductView/>
