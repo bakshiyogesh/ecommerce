@@ -1,12 +1,16 @@
 import { FC } from "react"
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ProductView from "../components/ProductView";
+import ProductLogo from "../components/ProductLogo";
+import ImageSlider from "../components/ProdcutSlider";
+import Services from "../components/Services";
 
 const HomePage:FC=()=>{
     return(<>
        <Header/>
-       <ProductView/>
+       <ProductLogo/>
+       <ImageSlider/>
+       <Services/>
        <Footer/>
         </>)
 }
