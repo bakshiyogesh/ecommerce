@@ -3,7 +3,7 @@ import { FC } from "react";
 const Header:FC=()=>{
     return(<>
 <header className="grid min-w-full fixed z-50">
-    <nav className="flex sm:justify-center space-x-4  bg-lime-200 w-screen">
+    <nav className="flex sm:justify-center space-x-4  bg-gray-800">
             <img src="/img/logo-no-background.svg" className="w-full h-10 " alt="logo image"/>
   {[
     ['Home', '/'],
@@ -12,7 +12,7 @@ const Header:FC=()=>{
     ['SignUp','/SignUp']
 
   ].map(([title, url]) => (<div>
-    <a href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900 hover:underline decoration-yellow-700 text-left">{title}</a>
+    <a href={url} className="rounded-lg px-3 py-2 text-white font-medium hover:bg-slate-100 hover:text-slate-900 hover:underline decoration-yellow-700 text-left">{title}</a>
     </div>
   ))}
   {/* <MenuIcon className="lg:hidden"/> */}
